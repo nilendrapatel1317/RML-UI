@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Bootstrap Structure</title>
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Remixicon CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Style CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="navbar">
+          <div class="logo col-3">
+            <a
+              href="./home.html"
+              class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0"
+            >
+              <div class="web-logo gap-3 display-flex">
+                <img src="./images/web-logo.svg" alt="" />
+                <small>Ranrev Media Lab</small>
+              </div>
+            </a>
+          </div>
+          <div class="col-7">
+            <div class="row justify-content-center gap-3">
+              <div class="col-lg-1 col-md-2 col-sm-3 p-3 text-center">
+                <a
+                  href="./home.html"
+                  class="link-secondary fw-normal link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                  >Home</a
+                >
+              </div>
+              <div class="col-lg-1 col-md-2 col-sm-3 p-3 text-center">
+                <a
+                  href="./client.html"
+                  class="link-secondary fw-normal link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                  >Clients</a
+                >
+              </div>
+              <div class="col-lg-1 col-md-2 col-sm-3 p-3 text-center">
+                <a
+                  href="./service.html"
+                  class="link-secondary fw-normal link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                  >Services</a
+                >
+              </div>
+              <div class="col-lg-1 col-md-2 col-sm-3 p-3 text-center">
+                <a
+                  href="./about.html"
+                  class="link-secondary fw-normal link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                  >About</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+            <a href="/contact.html"><button class="btn rounded-pill px-4">Contact Us</button></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="container client-1 display-flex ">
+          <div
+            class="text-center p-5 h-75 display-flex flex-column gap-3"
+          >
+            <h6>Trusting is the first step!</h6>
+            <h1><span>REVOLUTIONING</span> THE <span>USER</span> EXPERIENCE</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim.
+            </p>
+            <div class=" ps-4 display-flex gap-5">
+              <div class="col p-0">
+                <button
+                  class="btn btn-primary rounded-pill px-4"
+                  style="padding: 10px 0 12px"
+                >
+                  Testimonials
+                </button>
+              </div>
+              <div class="play-btn col">
+                <button class="btn rounded-circle">
+                  <i class="ri-play-line"></i>
+                </button>
+                <small class="ps-2">Our Clients</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-black py-5">
+        <div class="container service-4 px-0">
+          <div class="col s4-top">
+            <div class="col h-25 display-flex justify-content-start">
+              <p
+                class="px-3 py-2 border border-secondary text-light opacity-75 rounded-3 border-opacity-50 display-flex gap-2"
+              >
+                <i
+                  class="ri-checkbox-blank-circle-fill"
+                  style="color: #1ad292"
+                ></i
+                >What we’ve achieved so far
+              </p>
+            </div>
+            <div class="col h-75 d-flex">
+              <div
+                class="col-5 h-100 display-flex pb-5 pe-5 justify-content-start text-light"
+              >
+                <h2>Unleashing your potential to the world!</h2>
+              </div>
+              <div
+                class="col-5 h-100 display-flex pb-5 pe-5 justify-content-start text-light"
+              >
+                <small
+                  >Get your website up and running in a few weeks with the best
+                  UI & pagespeed insights! Get your website up and running in a
+                  few weeks with the best UI & pagespeed insights!</small
+                >
+              </div>
+              <div class="col-2 h-100 display-flex pb-5 justify-content-end">
+                <div
+                  class="s4-arrow-cir border border-light border-opacity-50 display-flex"
+                >
+                  <i
+                    class="ri-arrow-right-line fs-2"
+                    style="color: #1ad292"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col s4-bottom border border-secondary border-opacity-75 rounded-5 overflow-hidden display-flex"
+          >
+            <div
+              class="col h-100 s4-bottom-box activeBox border-end border-secondary border-opacity-75 d-flex flex-column py-5 ps-5 justify-content-between"
+            >
+              <h3>LLYSAS</h3>
+              <div>
+                <h4 class="passion">Fashion Boutique</h4>
+                <p class="fw-normal opacity-50">
+                  Get your website up and running in a few weeks with the best
+                  UI & pagespeed insights!
+                </p>
+              </div>
+              <div
+                class="s4-b-viewMoreBox activeViewBtn display-flex justify-content-start pt-4 pb-3 px-4 rounded-3"
+              >
+                <h5 class="fw-normal">View More</h5>
+              </div>
+            </div>
+            <div
+              class="col h-100 s4-bottom-box d-flex flex-column py-5 ps-5 justify-content-between"
+            >
+              <h3>LLYSAS</h3>
+              <div>
+                <h4 class="passion">Fashion Boutique</h4>
+                <p class="fw-normal opacity-50">
+                  Get your website up and running in a few weeks with the best
+                  UI & pagespeed insights!
+                </p>
+              </div>
+              <div
+                class="s4-b-viewMoreBox display-flex justify-content-start pt-4 pb-3 px-4 rounded-3"
+              >
+                <h5 class="fw-normal">View More</h5>
+              </div>
+            </div>
+            <div
+              class="col h-100 s4-bottom-box border-start border-secondary border-opacity-75 d-flex flex-column py-5 ps-5 justify-content-between"
+            >
+              <h3>LLYSAS</h3>
+              <div>
+                <h4 class="passion">Fashion Boutique</h4>
+                <p class="fw-normal opacity-50">
+                  Get your website up and running in a few weeks with the best
+                  UI & pagespeed insights!
+                </p>
+              </div>
+              <div
+                class="s4-b-viewMoreBox display-flex justify-content-start pt-4 pb-3 px-4 rounded-3"
+              >
+                <h5 class="fw-normal">View More</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials pt-5 pb-0">
+        <div
+          class="col-12 test-top text-center testimonials-top display-flex flex-column mt-5"
+        >
+          <p>Testimonials</p>
+          <h3>Listen to what our clients have to say about us!</h3>
+        </div>
+        <div
+          class="col-12 test-bottom testimonials-bottom display-flex flex-column"
+        >
+          <div class="outer-circle">
+            <div class="test-msg-box">
+              <div class="inner-circle" data-content id="testi-1">
+                <img src="./images/testimonials-colan-img.svg" alt="" />
+                <p>
+                  I've recommended this product to all my friends and family
+                  because it genuinely works. It's a must-have for anyone
+                  looking to simplify their life.
+                </p>
+                <p>
+                  The value for money is exceptional. I've compared prices and
+                  features, and this product offers the best bang for your buck.
+                  I'm extremely satisfied.
+                </p>
+              </div>
+              <div class="inner-circle" data-content id="testi-2">
+                <img src="./images/testimonials-colan-img.svg" alt="" />
+                <p>
+                  I'm impressed by the attention to detail and the commitment to
+                  quality demonstrated by this company. They truly go above and
+                  beyond to deliver excellence.
+                </p>
+                <p>
+                  This product has made a significant difference in my
+                  productivity. It's intuitive, user-friendly, and has all the
+                  features I need. I'm more efficient than ever!
+                </p>
+              </div>
+              <div
+                class="inner-circle userBox_active"
+                data-content
+                id="testi-3"
+              >
+                <img src="./images/testimonials-colan-img.svg" alt="" />
+                <p>
+                  One of the best digital agencies to work with. Tremendous
+                  growth over the couple of months. They listen to the queries
+                  and resolve them by giving proper information and honestly
+                  admit the time required to make it.
+                </p>
+                <p>
+                  Literally the best investment I ever made. Kudos to the team
+                  who makes this digital experience flawless!
+                </p>
+              </div>
+              <div class="inner-circle" data-content id="testi-4">
+                <img src="./images/testimonials-colan-img.svg" alt="" />
+                <p>
+                  Navigating through this website is a breeze! The user
+                  interface is intuitive, and I love how easy it is to find the
+                  information I need. Great job on the UI/UX design!"
+                </p>
+                <p>
+                  I'm impressed by the sleek and modern design of this website.
+                  The visual elements are pleasing to the eye, and the user
+                  experience is seamless. Well done!
+                </p>
+              </div>
+              <div class="inner-circle" data-content id="testi-5">
+                <img src="./images/testimonials-colan-img.svg" alt="" />
+                <p>
+                  The UI/UX of this website is top-notch. It's clear that the
+                  design team prioritized user-friendliness, making it a joy to
+                  browse and explore the site's content.
+                </p>
+                <p>
+                  The attention to detail in the UI/UX of this website is
+                  commendable. From the thoughtful placement of buttons to the
+                  smooth transitions, every interaction feels polished and
+                  professional.
+                </p>
+              </div>
+              <div class="inner-circle" data-content id="testi-6">
+                <img src="./images/testimonials-colan-img.svg" alt="" />
+                <p>
+                  I appreciate how responsive and mobile-friendly this website
+                  is. It adapts beautifully to different screen sizes, ensuring
+                  a consistent and enjoyable user experience across devices.
+                </p>
+                <p>
+                  I'm impressed by the accessibility features implemented on
+                  this website. The UI/UX design ensures that users of all
+                  abilities can navigate and interact with ease. Kudos!
+                </p>
+              </div>
+            </div>
+
+            <div class="user-dets-box">
+              <!-- Testimonials User Photo and Name -->
+              <div
+                class="test-user-info-box display-flex test-box-1"
+                data-target="#testi-1"
+              >
+                <div class="test-user-pic">
+                  <img src="./images/testimonials-img-1.svg" alt="" />
+                </div>
+                <div class="test-user-dets mt-2 display-flex flex-column">
+                  <h5>Jennifer Schmedtmann</h5>
+                  <small>CEO, XYZ Company</small>
+                </div>
+              </div>
+              <div
+                class="test-user-info-box display-flex test-box-2"
+                data-target="#testi-2"
+              >
+                <div class="test-user-pic">
+                  <img src="./images/testimonials-img-2.svg" alt="" />
+                </div>
+                <div class="test-user-dets mt-2 display-flex flex-column">
+                  <h5>Jennifer Schmedtmann</h5>
+                  <small>CEO, XYZ Company</small>
+                </div>
+              </div>
+              <div
+                class="test-user-info-box display-flex test-box-3 userBox_active"
+                data-target="#testi-3"
+              >
+                <div class="test-user-pic">
+                  <img src="./images/testimonials-img-3.svg" alt="" />
+                </div>
+                <div class="test-user-dets mt-2">
+                  <h5>Jennifer Schmedtmann</h5>
+                  <small>CEO, XYZ Company</small>
+                </div>
+              </div>
+              <div
+                class="test-user-info-box display-flex test-box-4"
+                data-target="#testi-4"
+              >
+                <div class="test-user-pic">
+                  <img src="./images/testimonials-img-4.svg" alt="" />
+                </div>
+                <div class="test-user-dets mt-2 display-flex flex-column">
+                  <h5>Jennifer Schmedtmann</h5>
+                  <small>CEO, XYZ Company</small>
+                </div>
+              </div>
+              <div
+                class="test-user-info-box display-flex test-box-5"
+                data-target="#testi-5"
+              >
+                <div class="test-user-pic">
+                  <img src="./images/testimonials-img-5.svg" alt="" />
+                </div>
+                <div class="test-user-dets mt-2 display-flex flex-column">
+                  <h5>Jennifer Schmedtmann</h5>
+                  <small>CEO, XYZ Company</small>
+                </div>
+              </div>
+              <div
+                class="test-user-info-box display-flex test-box-6"
+                data-target="#testi-6"
+              >
+                <div class="test-user-pic">
+                  <img src="./images/testimonials-img-6.svg" alt="" />
+                </div>
+                <div class="test-user-dets mt-2 display-flex flex-column">
+                  <h5>Jennifer Schmedtmann</h5>
+                  <small>CEO, XYZ Company</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="pb-2">
+      <div class="col-12 h-100 footer-bottom display-flex gap-4 px-5 pt-2 pb-3">
+        <div class="col-4 fb-left h-100">
+          <div class="col fb-l-top h-75 ps-5 pt-5">
+            <img src="./images/web-logo.svg" alt="" />
+            <h4>Ranrev Media Lab</h4>
+            <p>Revolutionizing the Digital era!</p>
+          </div>
+          <div class="col fb-l-bottom h-25 ps-5 pt-5">
+            <small>All rights reserved. &copy;2023 by Ranrev Media Lab</small>
+          </div>
+        </div>
+        <div class="col-4 fb-middle h-100">
+          <div class="col fb-m-top h-75">
+            <div class="col-12 fb-m-t-top ps-3 pt-5 h-50">
+              <h6>United States</h6>
+              <small>Office Address in the US</small>
+            </div>
+            <div class="col-12 fb-m-t-bottom h-50 ps-3">
+              <h6>India</h6>
+              <small
+                >S-3, A Block, Tirupati Abhinav Homes, Ayodhya Bypass Road,
+                Bhopal, Madhya Pradesh — 462041</small
+              >
+            </div>
+          </div>
+          <div class="col fb-m-bottom h-25 display-flex">
+            <div></div>
+          </div>
+        </div>
+        <div class="col-4 fb-right h-100">
+          <div class="col fb-r-top h-75 pe-5">
+            <a
+              href=""
+              class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >Home</a
+            >
+            <a
+              href=""
+              class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >Services</a
+            >
+            <a
+              href=""
+              class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >Clients</a
+            >
+            <a
+              href=""
+              class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >About</a
+            >
+          </div>
+          <div class="col fb-r-bottom gap-3 h-25 pe-5">
+            <i class="ri-facebook-line"></i>
+            <i class="ri-twitter-line"></i>
+            <i class="ri-instagram-line"></i>
+            <i class="ri-linkedin-line"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- GSAP JS CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"
+      integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Bootstrap JS CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom JS File -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
